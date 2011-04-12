@@ -10,7 +10,7 @@ Copyright (C) 2010 Laurent Eschenauer <laurent@eschenauer.be>
 Install
 -------
 
-If you are using npm (the node packet manager), installing is as easy as:
+If you are using npm (the node package manager), installing is as easy as:
     npm install ostatus
 
 
