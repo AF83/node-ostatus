@@ -1,7 +1,7 @@
 var assert = require('assert');
 var fs = require('fs');
 var path = require('path');
-var ostatus = require('ostatus');
+var ostatus = require('../');
 var input = fs.readFileSync(path.join(__dirname, 'test-salmon.input'), 'utf-8');
 var output = fs.readFileSync(path.join(__dirname, 'test-salmon.output'), 'utf-8');
 

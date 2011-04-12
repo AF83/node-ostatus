@@ -1,7 +1,7 @@
 var assert = require('assert');
 var fs = require('fs');
 var path = require('path');
-var ostatus = require('ostatus');
+var ostatus = require('../');
 var xml = fs.readFileSync(path.join(__dirname, 'test-as.xml'), 'utf-8');
 
 function test_render() {

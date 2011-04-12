@@ -23,7 +23,7 @@
  * THE SOFTWARE.
 */
 
-var Ostatus = require('ostatus'),
+var Ostatus = require('../'),
 	Util = require('util'),
 	Hcard = Ostatus.hcard,
 	Webfinger = Ostatus.webfinger;
