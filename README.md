@@ -30,7 +30,7 @@ Or you can install all dependencies manually:
 Documentation
 -------------
 
-The API is documented in the [wiki](http://github.com/eschnou/node-ostatus/wiki). 
+The API is documented in the [wiki](http://github.com/eschnou/node-ostatus/wiki).
 
 Support
 -------
@@ -39,13 +39,13 @@ Please avoid sending an email directly to me. Instead, involve also other users 
 
 -  Filling an issue report in the [issue tracker](https://github.com/eschnou/node-ostatus/issues).
 -  Asking your question on the [Ostatus](http://groups.google.com/group/ostatus-discuss) or [NodeJS](http://groups.google.com/group/nodejs) mailing list.
--  Ping me on twitter [@eschnou](http://twitter.com/eschnou) <== Ho irony :-) 
+-  Ping me on twitter [@eschnou](http://twitter.com/eschnou) <== Ho irony :-)
 
 Client
 ------
 
-In the bin/ folder, you'll find a few simple command line clients for ostatus. If you install with NPM, 
-these will be linked and added to your path. 
+In the bin/ folder, you'll find a few simple command line clients for ostatus. If you install with NPM,
+these will be linked and added to your path.
 
 ### Status
 Display the last status update of someone:
@@ -58,7 +58,7 @@ Output:
 ### Profile
 Display the profile of someone
 	profile eschnou@identi.ca
-	
+
 Output:
     photo: 'http://avatar.identi.ca/16106-96-20080722053859.png',
     nickname: 'eschnou',
@@ -72,10 +72,10 @@ Progress
 
 The following pieces of the protocol are implemented:
 
--  [webfinger](http://code.google.com/p/webfinger/): 
+-  [webfinger](http://code.google.com/p/webfinger/):
    * Lookup a user account and return the user meta in a JSON format
    * Rendering of host/user meta based on a JSON input object
--  [pubsubhubbub](http://code.google.com/p/pubsubhubbub/): 
+-  [pubsubhubbub](http://code.google.com/p/pubsubhubbub/):
    * Subscribe/Unsubscribe to a topic on another hub
    * Verify a subscription request from an other hub
    * Distribute content to subscribers (with support for authenticated content distribution)
@@ -86,7 +86,7 @@ The following pieces of the protocol are implemented:
    * Fetch an atom feed with activitystream content and return a JSON representation of the stream. The JSON object is a valid activitystream JSON object.
    * Render an atom feed from an array of activities in JSON
 -  [salmon](http://www.salmon-protocol.org/)
-   * Unpacking envelope and base64url encoding/decoding 
+   * Unpacking envelope and base64url encoding/decoding
 
 What is missing:
 

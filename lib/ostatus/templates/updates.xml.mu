@@ -9,7 +9,7 @@
  <link rel="mentioned" href="http://{{host}}/salmon/user/{{username}}" />
  <link rel="http://salmon-protocol.org/ns/salmon-replies" href="http://{{host}}/salmon/user/{{username}}" />
  <link rel="http://salmon-protocol.org/ns/salmon-mention" href="http://{{host}}/salmon/user/{{username}}" />
- <link rel="self" href="http://{{host}}/updates/{{username}}.atom" type="application/atom+xml"/> 
+ <link rel="self" href="http://{{host}}/updates/{{username}}.atom" type="application/atom+xml"/>
  <author>
   <name>{{fullname}}</name>
   <uri>http://{{host}}/users/{{username}}</uri>
@@ -37,5 +37,5 @@
   <activity:object-type>http://activitystrea.ms/schema/1.0/{{type}}</activity:object-type>
  </entry>
 {{/updates}}
-</feed>   
+</feed>
 
